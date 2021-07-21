@@ -68,8 +68,6 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 
     private void logIn(String email, String password) {

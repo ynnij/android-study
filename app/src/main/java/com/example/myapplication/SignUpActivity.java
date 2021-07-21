@@ -21,7 +21,6 @@ public class SignUpActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText editTextTextEmailAddress;
     private EditText editTextTextPassword;
-    private EditText editText_nickname;
     private Button button_sign_in;
 
     @Override
@@ -36,7 +35,6 @@ public class SignUpActivity extends AppCompatActivity {
 
         editTextTextEmailAddress = findViewById(R.id.editTextTextEmailAddress);
         editTextTextPassword = findViewById(R.id.editTextTextPassword);
-        editText_nickname = findViewById(R.id.editText_nickname);
         button_sign_in = findViewById(R.id.button_sign_in);
 
         button_sign_in.setOnClickListener(new View.OnClickListener() {
